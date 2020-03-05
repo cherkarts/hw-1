@@ -1,0 +1,40 @@
+body{
+    background: #f86faf59;
+}
+
+.bg{
+    background-color: rgba(217, 138, 42, 0.4196078431372549);
+    width: 100%;
+    height: 320px;
+    text-align: center;
+}
+
+h1{
+    padding-top: 50px;
+    color: #2f6a93;
+}
+
+.subtitle{
+    max-width: 550px;
+    margin: auto;
+    color: blue;
+    font-weight: bold;
+}
+
+li{
+    display: inline; block;
+}
+
+.btn{
+    padding: 15px;
+    background: rgb(233, 30, 99);
+    border: none;
+    cursor: pointer;
+}
+.link{
+    padding: 14px;
+}
+
+/* .stylePage{
+    background-color: #e91e63;
+} */

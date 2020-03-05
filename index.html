@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework-1</title>
+    <link href="./css/main.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="bg" id="bg" >
+        <h1 class="title">Homework № 1</h1>
+        <p class="subtitle">
+            
+            Сколько помощников лезут в душу, <br>
+            Сколько наушников шепчут в уши, <br>
+            Сколько советчиков щиплют нервы - <br>
+            Всех волнуют твои проблемы.<br><br>
+
+        </p>
+        <p class="subtitle">
+            А если выбрать поиск через querySelectorAll, <br>
+            то сработает ко всем P, сейчас он остановился на первом
+        </p>
+        
+        
+      </div>
+      <div class="buttons">
+        <ul class="list" id="list">
+            <li class="item" id="item">
+              <button class="btn url" id="url" onclick="goToPage()">
+                  Go to the yandex
+                </button>
+             
+            </li>
+            <li class="item" id="itemStyle">
+              <button class="btn stylePage" id="stylePage" onclick="editColor('')">
+                Меняем стиль страницы
+              </button>
+            </li>
+            <li class="item" id="itemNew">
+              <button class="btn newPage" id="newPage" onclick="myFunction('')">
+                Отрисовка новой станицы
+              </button>
+            </li>
+          </ul>
+      </div>
+
+      
+    </header>
+
+    
+    <script src="./js/main.js" type="text/javascript"></script>
+  </body>
+</html>
